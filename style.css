@@ -12,6 +12,9 @@
   border-radius: 100px;
   animation: inFromBottom 0.75s ease-out;
 }
+.section {
+  height: 100vh;
+}
 .intro {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -24,8 +27,29 @@
   font-family: 'Roboto', sans-serif;
   font-size: 38px;
   color: #ccd6f6;
+  padding-top: 8px;
 
   animation: inFromBottom 0.75s ease-out 0.35s;
+  animation-fill-mode: backwards;
+}
+
+.me {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #8892b0;
+  padding-top: 8px;
+
+  animation: inFromBottom 0.75s ease-out 0.45s;
+  animation-fill-mode: backwards;
+}
+
+.info {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #8892b0;
+  padding-top: 38px;
+
+  animation: inFromBottom 0.75s ease-out 0.65s;
   animation-fill-mode: backwards;
 }
 

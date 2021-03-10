@@ -27,7 +27,7 @@
   animation: inFromBottom 0.75s ease-out;
 }
 
-.first-page-container {
+.page-container {
   padding: 20px;
 }
 
@@ -64,6 +64,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 18px;
+  line-height: 26px;
   max-width: 325px;
   color: #8892b0;
   padding-top: 38px;
@@ -74,6 +75,21 @@
 
 .employment {
   display: inline-block;
+}
+
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  color: #ccd6f6;
+}
+
+.section-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 325px;
+  color: #8892b0;
+  padding-top: 38px;
 }
 
 @keyframes inFromBottom {
@@ -108,15 +124,18 @@
     font-weight: 300;
     animation: inFromBottom 0.75s ease-out;
   }
+
   .nav-link:link,
   .nav-link:visited {
     text-decoration: none;
     color: #ccd6f6;
     margin-right: 30px;
   }
+
   .self-photo-container {
     padding: 20px 40px;
   }
+
   .first-page-container {
     padding: 80px 350px;
   }

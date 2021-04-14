@@ -26,7 +26,7 @@ html {
 
 .section {
   height: 100vh;
-  width: 99vw;
+  width: 98vw;
 }
 
 .self-photo-container {
@@ -98,12 +98,14 @@ html {
   animation-fill-mode: backwards;
   margin-left: -4rem;
   filter: opacity(80%);
+  margin-top: 3rem;
 }
 
 .section-title {
   font-family: 'Roboto', sans-serif;
   color: #ccd6f6;
   font-size: 3rem;
+  margin-top: 1rem;
 }
 
 .section-info {
@@ -219,7 +221,7 @@ html {
   }
 
   .page-container {
-    padding: 8rem 35rem;
+    padding: 4rem 35rem;
   }
 
   .name {
@@ -240,5 +242,15 @@ html {
 
   .section-info {
     max-width: 52.25rem;
+  }
+  intro-photo-container {
+    width: 35rem;
+  }
+  .intro-photo {
+    width: 100%;
+    max-width: 50rem;
+  }
+  .tech-logos {
+    width: 45rem;
   }
 }

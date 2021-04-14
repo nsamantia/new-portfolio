@@ -78,7 +78,7 @@ html {
 .info {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 2rem;
   line-height: 2.6rem;
   max-width: 32.25rem;
   color: #8892b0;
@@ -95,13 +95,14 @@ html {
 .section-title {
   font-family: 'Roboto', sans-serif;
   color: #ccd6f6;
+  font-size: 3rem;
 }
 
 .section-info {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  line-height: 2.6rem;
+  line-height: 2.8rem;
   max-width: 32.25rem;
   color: #8892b0;
   padding-top: 3.8rem;
@@ -127,6 +128,38 @@ html {
   width: 5rem;
   display: block;
   padding: 0.5rem;
+}
+
+.project-container {
+  padding: 3rem;
+  margin-top: 3rem;
+  background-color: #0c1d34;
+}
+
+.project-title {
+  font-family: 'Roboto', sans-serif;
+  color: #ccd6f6;
+  font-size: 2.2rem;
+}
+
+.project-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  max-width: 32.25rem;
+  color: #8892b0;
+}
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.project-svg {
+  color: #ccd6f6;
+  width: 3.5rem;
+  margin-top: 2rem;
 }
 
 @keyframes inFromBottom {

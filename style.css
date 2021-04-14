@@ -43,7 +43,7 @@ html {
 
 .page-container {
   padding: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .intro {
@@ -84,12 +84,20 @@ html {
   color: #8892b0;
   padding-top: 3.8rem;
 
-  animation: inFromBottom 0.75s ease-out 0.65s;
+  animation: inFromBottom 0.75s ease-out 0.55s;
   animation-fill-mode: backwards;
 }
 
 .employment {
   display: inline-block;
+}
+
+.intro-photo {
+  width: 30rem;
+  animation: inFromBottom 0.75s ease-out 0.85s;
+  animation-fill-mode: backwards;
+  margin-left: -4rem;
+  filter: opacity(80%);
 }
 
 .section-title {
@@ -160,6 +168,9 @@ html {
   color: #ccd6f6;
   width: 3.5rem;
   margin-top: 2rem;
+}
+.margin-top {
+  margin-top: 18rem;
 }
 
 @keyframes inFromBottom {

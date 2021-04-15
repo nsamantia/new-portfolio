@@ -189,7 +189,7 @@ html {
 
 /* Desktop View */
 
-@media (min-width: 1025px) {
+@media (min-width: 450px) {
   header {
     display: flex;
     flex-direction: row;
@@ -274,8 +274,15 @@ html {
 
 /* Laptop View */
 
-@media (max-width: 1432px) and (min-width: 1026px) {
+@media (max-width: 1432px) and (min-width: 450px) {
   .page-container {
     padding: 13rem 25rem;
+  }
+}
+
+/* iPad View */
+@media (min-height: 1010px) {
+  .page-container {
+    padding: 13rem 15rem;
   }
 }

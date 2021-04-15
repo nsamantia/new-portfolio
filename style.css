@@ -19,8 +19,13 @@ html {
   box-sizing: border-box;
 }
 
-.section {
+.opening-section {
   height: 100vh;
+  width: 98vw;
+}
+
+.section {
+  height: 70vh;
   width: 98vw;
 }
 
@@ -188,13 +193,13 @@ html {
   header {
     display: flex;
     flex-direction: row;
-    position: relative;
   }
 
   .nav {
     padding: 3rem 5rem;
     position: absolute;
     right: 0;
+    display: inline-block;
   }
 
   .nav-link {
@@ -216,7 +221,7 @@ html {
   }
 
   .page-container {
-    padding: 4rem 35rem;
+    padding: 13rem 45rem;
   }
 
   .name {
@@ -246,6 +251,23 @@ html {
     max-width: 50rem;
   }
   .tech-logos {
-    width: 45rem;
+    width: 50rem;
+  }
+  .tech-logos p {
+    font-size: 1.5rem;
+  }
+  .svg {
+    width: 10rem;
+  }
+  .project-container {
+    max-width: 82.25rem;
+  }
+  .project-svg:hover {
+    color: #ff91a4;
+  }
+}
+@media (max-height: 875px) {
+  .section {
+    height: 90vh;
   }
 }

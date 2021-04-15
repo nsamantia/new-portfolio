@@ -20,13 +20,13 @@ html {
 }
 
 .opening-section {
-  height: 100vh;
   width: 98vw;
 }
 
 .section {
   height: 70vh;
   width: 98vw;
+  display: inline-block;
 }
 
 .self-photo-container {
@@ -176,6 +176,14 @@ html {
 }
 .margin-top {
   margin-top: 18rem;
+}
+
+.contact-svg {
+  color: #ccd6f6;
+  width: 9rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  fill: #ccd6f6;
 }
 
 @keyframes inFromBottom {

@@ -271,3 +271,11 @@ html {
     height: 90vh;
   }
 }
+
+/* Laptop View */
+
+@media (max-width: 1432px) and (min-width: 1026px) {
+  .page-container {
+    padding: 13rem 25rem;
+  }
+}

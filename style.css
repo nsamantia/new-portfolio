@@ -16,11 +16,6 @@ html {
 
 .body {
   background-color: #0a192f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
   box-sizing: border-box;
 }
 
@@ -243,8 +238,8 @@ html {
   .section-info {
     max-width: 52.25rem;
   }
-  intro-photo-container {
-    width: 35rem;
+  .intro-photo-container {
+    width: 42rem;
   }
   .intro-photo {
     width: 100%;

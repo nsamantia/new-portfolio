@@ -132,6 +132,9 @@ html {
   align-items: center;
   flex-direction: column;
   font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #8892b0;
 }
 
 .svg {
@@ -189,7 +192,7 @@ html {
 
 /* Desktop View */
 
-@media (min-width: 450px) {
+@media screen and (min-width: 450px) {
   header {
     display: flex;
     flex-direction: row;
@@ -266,7 +269,7 @@ html {
     color: #ff91a4;
   }
 }
-@media (max-height: 875px) {
+@media screen and (max-height: 875px) {
   .section {
     height: 90vh;
   }
@@ -274,14 +277,14 @@ html {
 
 /* Laptop View */
 
-@media (max-width: 1432px) and (min-width: 450px) {
+@media screen and (max-width: 1432px) and (min-width: 450px) {
   .page-container {
     padding: 13rem 25rem;
   }
 }
 
 /* iPad View */
-@media (min-height: 1010px) {
+@media screen and (min-height: 1010px) {
   .page-container {
     padding: 13rem 15rem;
   }

@@ -192,10 +192,15 @@ html {
 
 .contact-svg {
   color: #ccd6f6;
-  width: 9rem;
+  width: 7rem;
   padding: 1rem;
   margin-top: 2rem;
   fill: #ccd6f6;
+}
+
+.bottom-section {
+  width: 98vw;
+  display: inline-block;
 }
 
 @keyframes inFromBottom {
@@ -243,6 +248,12 @@ html {
     color: #ff91a4;
   }
 
+  .resume {
+    border: solid 1px;
+    padding: 0.8rem;
+    border-radius: 4px;
+  }
+
   .self-photo-container {
     padding: 2rem 4rem;
   }
@@ -284,7 +295,7 @@ html {
     font-size: 1.5rem;
   }
   .svg {
-    width: 10rem;
+    width: 8rem;
   }
   .project-container {
     max-width: 82.25rem;
@@ -304,6 +315,12 @@ html {
 @media screen and (max-width: 1432px) and (min-width: 450px) {
   .page-container {
     padding: 10rem 25rem;
+  }
+  .svg {
+    width: 7rem;
+  }
+  .contact-svg {
+    width: 8rem;
   }
 
   /* iPad View */

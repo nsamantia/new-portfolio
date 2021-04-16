@@ -287,13 +287,13 @@ html {
 
 @media screen and (max-width: 1432px) and (min-width: 450px) {
   .page-container {
-    padding: 13rem 25rem;
+    padding: 10rem 25rem;
   }
-}
 
-/* iPad View */
-@media screen and (min-height: 1010px) {
-  .page-container {
-    padding: 13rem 15rem;
+  /* iPad View */
+  @media screen and (min-height: 1010px) {
+    .page-container {
+      padding: 13rem 15rem;
+    }
   }
 }

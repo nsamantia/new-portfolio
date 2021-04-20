@@ -187,6 +187,9 @@ html {
   margin-top: 2rem;
   padding-right: 1rem;
 }
+.project-image {
+  display: none;
+}
 .margin-top {
   margin-top: 18rem;
 }
@@ -201,6 +204,7 @@ html {
 
 .bottom-section {
   width: 98vw;
+  margin-top: 5rem;
   display: inline-block;
 }
 
@@ -322,10 +326,10 @@ html {
 
   .project-image-container {
     width: 35rem;
-
     display: block;
   }
   .project-image {
+    display: inline-block;
     max-width: 100%;
     max-height: 100%;
   }

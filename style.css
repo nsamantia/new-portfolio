@@ -332,6 +332,7 @@ html {
     display: inline-block;
     max-width: 100%;
     max-height: 100%;
+    border-radius: 5px;
   }
 
   .bottom-section {
@@ -362,6 +363,12 @@ html {
   @media screen and (min-height: 1010px) {
     .page-container {
       padding: 13rem 15rem;
+    }
+    .project-image-container {
+      display: none;
+    }
+    .project-info-container {
+      width: 100%;
     }
   }
 }

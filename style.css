@@ -342,9 +342,10 @@ html {
     height: 90vh;
   }
 }
+
 /* Laptop View */
 
-@media screen and (max-width: 1432px) and (min-width: 450px) {
+@media screen and (max-width: 1432px) and (min-width: 1270px) {
   .page-container {
     padding: 10rem 25rem;
   }
@@ -354,17 +355,20 @@ html {
   .contact-svg {
     width: 8rem;
   }
+}
 
-  /* iPad View */
-  @media screen and (min-height: 1010px) {
-    .page-container {
-      padding: 13rem 15rem;
-    }
-    .project-image-container {
-      display: none;
-    }
-    .project-info-container {
-      width: 100%;
-    }
+@media screen and (min-width: 451px) and (max-width: 1269px) {
+  .page-container {
+    padding: 10rem 10rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .project-image-container {
+    display: none;
+  }
+
+  .project-info-container {
+    width: 90%;
   }
 }

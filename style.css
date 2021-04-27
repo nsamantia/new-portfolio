@@ -122,7 +122,7 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 90vw;
+  width: 85vw;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
@@ -190,7 +190,7 @@ html {
   display: none;
 }
 .margin-top {
-  margin-top: 18rem;
+  margin-top: 5rem;
 }
 
 .contact-svg {
@@ -347,6 +347,10 @@ html {
 @media screen and (max-width: 1432px) and (min-width: 1270px) {
   .page-container {
     padding: 10rem 25rem;
+  }
+
+  .intro-photo {
+    width: 35rem;
   }
   .svg {
     width: 7rem;

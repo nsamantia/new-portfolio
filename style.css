@@ -378,13 +378,9 @@ html {
 }
 
 @media screen and (max-width: 970px) {
-
-  /* .project-image-mobile{
-    display: inline-block;
-  } */
   .project-image-container {
     display: none;
-
+  }
 
   .project-info-container {
     width: 90%;

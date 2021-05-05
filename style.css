@@ -95,12 +95,11 @@ html {
 }
 
 .intro-photo {
-  width: 30rem;
+  width: 25rem;
   animation: inFromBottom 0.75s ease-out 0.85s;
   animation-fill-mode: backwards;
   margin-left: -4rem;
   filter: opacity(80%);
-  margin-top: 3rem;
 }
 
 .section-title {
@@ -362,7 +361,7 @@ html {
   }
 
   .intro-photo {
-    width: 35rem;
+    width: 32rem;
   }
   .svg {
     width: 7rem;

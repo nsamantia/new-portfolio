@@ -212,7 +212,6 @@ html {
 .bottom-section {
   width: 98vw;
   margin-top: 5rem;
-  display: inline-block;
 }
 
 @keyframes inFromBottom {
@@ -343,7 +342,7 @@ html {
   }
 
   .bottom-section {
-    margin-top: 20rem;
+    margin-top: 15rem;
   }
 }
 
